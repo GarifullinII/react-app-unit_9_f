@@ -13,7 +13,8 @@ function PlaceholderPostHook() {
     }, []);
 
     return (
-        <>
+        <div>
+        <h1>Posts</h1>
         {
             data.map(item => 
                 <section key={item.id}>
@@ -22,7 +23,7 @@ function PlaceholderPostHook() {
                 </section>
                 )
         }
-        </>
+        </div>
     )
 }
 
