@@ -1,7 +1,9 @@
+import PlaceholderPostHook from "./PlaceholderPostHook";
+
 function App() {
   return (
     <>
-    123
+      <PlaceholderPostHook/>
     </>
   );
 }
