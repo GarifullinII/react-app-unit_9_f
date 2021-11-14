@@ -1,11 +1,11 @@
-import CommentHook from "./CommentHook";
 import PlaceholderPostHook from "./PlaceholderPostHook";
+import Comment2Hook from "./Comment2Hook";
 
 function App() {
   return (
     <>
       <PlaceholderPostHook/>
-      <CommentHook />
+      <Comment2Hook />
     </>
   );
 }
